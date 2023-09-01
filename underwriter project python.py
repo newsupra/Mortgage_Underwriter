@@ -45,4 +45,5 @@ def uw_model():
         
 while restart == "y":
     uw_model()
-    continue_question = input ("Do you want t
+    continue_question = input ("Do you want to continue Y/N?: ").lower()
+    restart = continue_question
